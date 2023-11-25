@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aquamarine;
+}
+
+#note-form {
+    margin-bottom: 20px;
+}
+
+#note-input {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#note-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.note-item {
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#submit-button {
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+#submit-button:hover {
+    background-color: rebeccapurple;
+}
